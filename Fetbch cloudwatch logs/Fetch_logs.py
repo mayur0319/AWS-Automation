@@ -7,8 +7,8 @@ import time
 client = boto3.client('logs', region_name='us-east-2')
 start_date_v2 = calendar.timegm(time.strptime('Oct 12, 2023 @ 00:00:00 UTC', '%b %d, %Y @ %H:%M:%S UTC'))
 end_date_v2 = calendar.timegm(time.strptime('Oct 14, 2023 @ 23:59:59 UTC', '%b %d, %Y @ %H:%M:%S UTC'))
-log_group_name = ""
-log_stream_name = ""
+log_group_name = "" # Add the log group name
+log_stream_name = "" # Add the log stream 
 with open('logs_Oct_12-Oct_14.txt', 'w') as f:
     next_token = ""
     kwargs = {
