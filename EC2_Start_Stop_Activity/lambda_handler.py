@@ -11,7 +11,7 @@ def lambda_handler(event,context):
     # Get Account IDs to which we will be performing
     ### filtered_acct_ids = get_filtered_account()
     
-    filtered_acct_ids = ["587244064168"]
+    filtered_acct_ids = [""]
     print(f"Utility will be running on Accounts = {filtered_acct_ids} \n")
     
     if todays_day not in [5,6]:
@@ -126,7 +126,7 @@ def get_filtered_account():
 
     # exclude_acct = os.environ['exclude_acct'].strip().split(",")
     #######Only for test#######
-    ex_at= "934432260049,905162661662,655460373928,388890206651,085484298817,179486526589,633910205101,075805711779,606592367583,547085805070,905285501929,394317822530,587244064168,125487031927,561790657625,427479402536,463620995861,039254957076,075869202828,247008003167,355164610395,006156838309,799352561952,940636201349,960959065488,233141802599,840663043881,388364814272,288114794382,803379038050,307007240923"
+    ex_at= ""
     exclude_acct= ex_at.strip().split(",")
     ##############
 
