@@ -1,0 +1,3 @@
+aws_role_name: 'sni_p01_util_instance_scheduler_role'
+aws_policy_name: 'sni_p01_util_instance_scheduler_policy'
+aws_lambda_name: 'sni_p01_util_instance_scheduler_lambda'
