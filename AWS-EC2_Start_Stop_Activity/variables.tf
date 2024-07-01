@@ -9,7 +9,7 @@ variable "environment" {
 variable "resource_prefix" {
   type        = string
   description = "resource_prefix"
-	default 		= "sni-p01-util-instance-scheduler"
+  default     = "sni-p01-util-instance-scheduler"
 }
 
 variable runtime {
@@ -36,5 +36,5 @@ variable layers {
 variable "exclude_account_list" {
   type        = list(string)
   description = "Exclude Accounts list"
-  default     = ["905162661662","655460373928","633910205101","075805711779","125487031927","463620995861","075869202828","799352561952"]
+  default     = []
 }
